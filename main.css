@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {}
+
+.section {
+    padding: 0 4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 4rem;
+
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+}
+
+img {
+    width: 100%;
+    height: 100vh;
+}
+
+.logo {
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlist {
+    padding: 15px 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navlist a {
+    color: black;
+    padding: 20px;
+}
+
+.explore__section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #fff;
+}
+
+.explore__section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("./images/pexels.jpg") no-repeat fixed center;
+    background-size: cover;
+    z-index: -10;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 330px;
+    color: #fff;
+
+}
+
+.underline {
+    width: 150px;
+    height: 5px;
+    margin-top: 20px;
+    background-color: #FB2056;
+    border-radius: 30px;
+}
+
+.landing__bottom {
+    font-size: 64px;
+    font-weight: 664;
+    color: #fff;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 13px 30px;
+    background-color: #FB2056;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+}
+
+.section__two {
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(226, 226, 226);
+}
+
+.section__two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.name {
+    margin-top: 30px;
+}
+
+.section__heading {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.event {
+    margin-top: 40px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+}
+
+.section__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.section__content-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section__content-container:nth-child(1) {
+    margin-right: 1rem;
+}
+
+.section__img {
+    height: 370px;
+    width: 100%;
+}
+
+.section__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.section__five {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #FB2056;
+    opacity: 0.9;
+}
+
+.section__five::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(./images/landingtwo.jpg) center;
+    background-size: cover;
+    z-index: -10;
+}
+
+.section__five {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contaxt {
+    margin-left: auto;
+    width: 50%;
+}
+
+.contaxt__header {
+    width: 50%;
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.underline {
+    width: 20%;
+    margin: 10px 18px;
+}
+
+.contaxt__text {
+    margin: 2rem 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button__contaxt {
+    margin: 0 1rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+.section__six {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.left__corner {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.bottom__head {
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    width: 50%;
+}
+
+.last__underline {
+    width: 150px;
+    height: 5px;
+    margin: 20px 0;
+    background-color: #FB2056;
+    border-radius: 30px;
+
+}
+
+.last__button {
+    width: 7rem;
+    height: 45px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.right__corner {
+    width: 70%;
+    display: flex;
+}
+
+.left--corner--head {
+    margin: 0 1rem;
+}
+
+.right__imges img {
+    height: 35vh;
+    margin: 10px 10px;
+    /* border-radius: 10px; */
+}
+
+.right__imges .spacific {
+    height: 50vh;
+}
+
+.right--corner--bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(204, 204, 204);
+
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.icons a {
+    margin: 5px 10px;
+}
